@@ -1,0 +1,188 @@
+
+<!DOCTYPE html>
+<html lang="cn">
+<head>
+   
+</head>
+
+<body>
+<div class="bg-gj-w" id="settings-mask" style="display: none;"></div>
+<div class="gjss" id="settings-advanced" style="display: none;top:-240px;">
+    <div class="hf-box" id="settings-save-layer">
+        <div class="hf-def">已保存设置</div>
+    </div>
+    <div class="gjss-tab">
+        <a uigs-id="tab_set" href="javascript:void(0);" class="js-settings-tab tab-a cur">搜索设置</a>
+        <a uigs-id="tab_adv" href="javascript:void(0);" class="js-settings-tab tab-a">高级搜索</a>
+        <a href="javascript:void(0);" class="close-btn" id="settings-close"></a>
+    </div>
+    <div class="gjss-main">
+        <div class="gjss-sz js-settings-content">
+            <p class="gjss-err js-settings-mask" style="display: none;">搜索设置暂不可用，请启用浏览器的Cookie功能，然后刷新本页。</p>
+            <div class="bg-wkq js-settings-mask" id="settings-tips" style="display: none;"></div>
+
+            <dl class="js-as-select">
+                <dt>搜索结果显示条数</dt>
+                <dd>
+                    <a href="javascript:void(0);" class="xz" id="settings-number" data-value="10">每页显示10条</a>
+                    <ul id="settings-number-list">
+                        <li><a uigs-id="set_10" href="javascript:void(0);" data-value="10">每页显示10条</a></li>
+                        <li><a uigs-id="set-20" href="javascript:void(0);" data-value="20">每页显示20条</a></li>
+                        <li><a uigs-id="set-50" href="javascript:void(0);" data-value="50">每页显示50条</a></li>
+                        <li><a uigs-id="set-100" href="javascript:void(0);" data-value="100">每页显示100条</a></li>
+                    </ul>
+                </dd>
+                <input type="hidden" name="pageNum" id="settings-show-number" value="10">
+            </dl>
+            <p class="enter" style="padding-top: 20px;">
+                <a href="javascript:void(0);" id="settings-save" uigs-id="set-save" class="a1">保存</a>
+                <a href="javascript:void(0);" id="settings-reset" uigs-id="set-reset" class="a2">恢复默认</a>
+            </p>
+        </div>
+        <div class="gjss-sz js-settings-content" style="display: none;">
+            <form action="/web" target="_blank" id="advanced-search-form">
+                <input type="hidden" name="query" value="">
+                <input name="fieldtitle" type="hidden" value=""/>
+                <input name="fieldcontent" type="hidden" value=""/>
+                <input name="fieldstripurl" type="hidden" value=""/>
+                <input name="bstype" type="hidden" value=""/>
+                <input name="ie" type="hidden" value="utf8"/>
+                <dl>
+                    <dt>搜索关键词</dt>
+                    <dd class="js-as-radio">
+                                                <div class="input-box js-input-box" id="advanced-query-box">
+                            <input name="q" type="text" must="1" size="42" maxlength="100" autocomplete="off" placeholder="例如：搜狗真棒（多个关键词可用空格区分）">
+                            <span class="err-word">* 请输入搜索关键词</span>
+                        </div>
+                        <a uigs-id="adv_split-query" href="javascript:void(0);" data-value="checkbox" class="dk-btn cur">拆分关键词</a>
+                        <a uigs-id="adv_no-split-query" href="javascript:void(0);" data-value="" class="dk-btn">不拆分关键词</a>
+                        <input type="hidden" name="include" value="checkbox">
+                    </dd>
+                </dl>
+                <dl>
+                    <dt>在指定站内搜索</dt>
+                    <dd>
+                        <div class="input-box js-input-box"><input name="sitequery" type="text" size="40" autocomplete="off" placeholder="例如：www.sogou.com"></div>
+                    </dd>
+                </dl>
+                <dl class="js-as-select" style="padding-top:16px">
+                    <dt>搜索词位于</dt>
+                    <dd>
+                        <a href="javascript:void(0);" class="xz">网页中任何地方</a>
+                        <ul>
+                            <li><a href="javascript:void(0);" data-value="0">网页中任何地方</a></li>
+                            <li><a href="javascript:void(0);" data-value="1">仅在标题中</a></li>
+                            <li><a href="javascript:void(0);" data-value="2">仅在正文中</a></li>
+                            <li><a href="javascript:void(0);" data-value="3">仅在网址中</a></li>
+                        </ul>
+                    </dd>
+                    <input type="hidden" name="located" value="0">
+                </dl>
+                <dl class="js-as-select" style="padding-top:16px">
+                    <dt>需要搜索的文件格式</dt>
+                    <dd >
+                        <a href="javascript:void(0);" class="xz">全部网页</a>
+                        <ul>
+                            <li><a href="javascript:void(0);" data-value="">全部网页</a></li>
+                            <li><a href="javascript:void(0);" data-value="doc">Microsoft Word (.doc)</a></li>
+                            <li><a href="javascript:void(0);" data-value="xls">Microsoft Excel (.xls)</a></li>
+                            <li><a href="javascript:void(0);" data-value="ppt">Microsoft Powerpoint (.ppt)</a></li>
+                            <li><a href="javascript:void(0);" data-value="pdf">Adobe Acrobat PDF (.pdf)</a></li>
+                            <li><a href="javascript:void(0);" data-value="rtf">RTF (.rtf)</a></li>
+                            <li><a href="javascript:void(0);" data-value="all">全部文档</a></li>
+                        </ul>
+                    </dd>
+                    <input type="hidden" name="filetype" value="">
+                </dl>
+                <dl>
+                    <dt>搜索结果排序方式</dt>
+                    <dd class="js-as-radio">
+                        <a uigs-id="adv_relevance-ranking" href="javascript:void(0);" data-value="off" class="dk-btn cur">按相关性排序</a>
+                        <a uigs-id="adv_time-sort" href="javascript:void(0);" data-value="on" class="dk-btn">按时间排序</a>
+                        <input type="hidden" name="tro" value="off">
+                    </dd>
+                </dl>
+                <p class="enter"><input id="adv-search-btn" uigs-id="adv_search-btn" type="submit" class="a1" value="开始搜索"></p>
+            </form>
+        </div>
+    </div>
+</div>
+
+    <div class="local-weather" id="local-weather">
+        <div class="wea-box" id="cur-weather" style="display: none;"></div>
+        <div class="pos-more" id="detail-weather" style="top:40px;"></div>
+    </div>
+    <span class="line" id="user-box-line" style="display: none;"></span>
+    <div class="user-enter">
+        <a href="javascript:void(0);" id="show-card" style="display: none" uigs-id="settings_show-card">显示卡片</a>
+                    <a href="javascript:void(0);" uigs-id="settings_change-skin" id="changeSkinBtn" style="display:none">换肤</a>
+                <span class="s-dw">
+            <a href="javascript:void(0);" id="settings">设置</a>
+            <div class="pos-more" id="settings-box" style="top:40px;">
+                <span class="ico-san"></span>
+                <a href="javascript:void(0);" id="search-settings" uigs-id="settings_config">搜索设置</a>
+                <a href="javascript:void(0);" id="advanced-search" uigs-id="settings_advanced">高级搜索</a>
+                <a href="http://help.sogou.com/?w=01091500&v=1" uigs-id="settings_help">帮助</a>
+            </div>
+        </span>
+                    <a href="javascript:void(0);" class="enter" id="loginBtn">登录</a>            </div>
+</div>
+    </div>
+    <div class="content" id="content">
+        <div class="pos-header" id="top-float-bar">
+            <div class="part-one"></div>
+            <div class="part-two" id="card-tab-layer">
+                <div class="c-top" id="top-card-tab"></div>
+            </div>
+        </div>
+
+        <div class="logo"><a class="js-doodle-tongji"  data-pv="bigLogo" title="教师节"  href="/web?query=教师节&amp;ie=utf8&amp;p=40050102 "><span class="pos-doodle"></span></a></div>
+
+        <div class="logo2" id="logo-s">
+                        <span ></span>
+                    </div>
+
+        <div class="search-box" id="search-box">
+    <form action="https://www.sogou.com/web" name="sf" id="sf">
+        <span class="sec-input-box">
+            <input type="text" class="sec-input active" name="query" id="query" maxlength="100" len="80" autocomplete="off" />
+        </span>
+        <span class="enter-input"><input type="submit" value="" id="stb"></span>
+        <input type="hidden" name="_asf" value="www.sogo.com" />
+        <input type="hidden" name="_ast" />
+        <input type="hidden" name="w" value="01019900" />
+        <input type="hidden" name="p" value="40040100" />
+        <input type="hidden" name="ie" value="utf8" />
+                    <input type="hidden" name="from" value="index-nologin" />
+                <input type="hidden" name="s_from" value="index" />
+        <div class="keywords-tips" id="keywordsTips" style="display:none">
+            <i></i>搜狗的查询限制在"<strong>40个汉字</strong>"以内。</p>
+        </div>
+    </form>
+</div>
+        <div class="doodle-share" id="share-box">
+            <a href="javascript:void(0);" class="ds-btn js-share-btn js-doodle-tongji" data-pv="shareBtn"></a>
+            <ul class="ds-list" id="share-list" style="display:none;">
+                <li><a href="javascript:void(0);" class="ds-qq" id="shareQFriend"></a></li>
+                <li><a href="javascript:void(0);" class="ds-qz" id="shareQzone"></a></li>
+                <li><a href="javascript:void(0);" class="ds-wb" id="shareWeiBo"></a></li>
+            </ul>
+        </div>
+            </div>
+    <div class="card-box" id="card-box" style="display: none;">
+    <div class="card-box2" id="card-box2">
+        <div class="c-top" id="card-tab-box">
+            <a href="javascript:void(0);" id="card-settings" uigs-id="settings_settings-btn" class="shezhi"></a>
+            <div class="pos-more" id="card-options">
+                <span class="ico-san"></span>
+                <a href="javascript:void(0);" uigs-id="settings_close-card" id="close-card">关闭卡片</a>
+            </div>
+        </div>
+        <div class="c-main" id="card-content"></div>
+    </div>
+</div>
+
+
+       </body>
+</html>
+<!--zly-->
