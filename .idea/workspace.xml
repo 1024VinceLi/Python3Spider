@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f7912a82-18db-4928-b2e5-449a584c16f4" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/PyQuery练习.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/数据存储TXT.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,24 +14,22 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="SOUP函数练习.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SOUP函数练习.py">
+      <file leaf-file-name="数据存储TXT.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/数据存储TXT.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="20" selection-end-column="3" />
+            <state relative-caret-position="544">
+              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
               <folding>
-                <element signature="e#7#1242#0" />
+                <element signature="e#0#15#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PyQuery练习.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/PyQuery练习.py">
+      <file leaf-file-name="explore.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/explore.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="604">
-              <caret line="40" column="16" lean-forward="true" selection-start-line="40" selection-start-column="16" selection-end-line="40" selection-end-column="16" />
-            </state>
+            <state relative-caret-position="-4416" />
           </provider>
         </entry>
       </file>
@@ -57,10 +55,11 @@
         <option value="$PROJECT_DIR$/path函数练习.py" />
         <option value="$PROJECT_DIR$/SOUP函数练习.py" />
         <option value="$PROJECT_DIR$/PyQuery练习.py" />
+        <option value="$PROJECT_DIR$/数据存储TXT.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="85" />
     <option name="y" value="25" />
     <option name="width" value="1750" />
@@ -74,7 +73,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -86,6 +84,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -104,7 +103,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.PyQuery练习">
+  <component name="RunManager" selected="Python.数据存储TXT">
     <configuration name="验证练习" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="爬虫基础练习" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -159,6 +158,24 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
+    <configuration name="数据存储TXT" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="爬虫基础练习" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/数据存储TXT.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <configuration name="贪婪匹配" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="爬虫基础练习" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -195,24 +212,6 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="请求头headers练习3" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="爬虫基础练习" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/请求头headers练习3.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
     <configuration name="path函数练习" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="爬虫基础练习" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -233,18 +232,18 @@
     </configuration>
     <list>
       <item itemvalue="Python.path函数练习" />
-      <item itemvalue="Python.请求头headers练习3" />
       <item itemvalue="Python.验证练习" />
       <item itemvalue="Python.SOUP函数练习" />
       <item itemvalue="Python.PyQuery练习" />
+      <item itemvalue="Python.数据存储TXT" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.数据存储TXT" />
         <item itemvalue="Python.PyQuery练习" />
         <item itemvalue="Python.SOUP函数练习" />
         <item itemvalue="Python.path函数练习" />
         <item itemvalue="Python.验证练习" />
-        <item itemvalue="Python.请求头headers练习3" />
       </list>
     </recent_temporary>
   </component>
@@ -265,29 +264,43 @@
     <frame x="-7" y="-7" width="1550" height="878" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.15364583" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15364583" />
       <window_info anchor="bottom" id="TODO" order="5" />
       <window_info anchor="bottom" id="Event Log" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32984293" />
+      <window_info anchor="right" id="Run" order="3" visible="true" weight="6.510417E-4" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="8" />
-      <window_info active="true" anchor="right" id="Run" order="3" visible="true" weight="0.4674479" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="9" />
-      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="2" weight="0.39921466" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/SOUP函数练习.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="20" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PyQuery练习.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1280">
+          <caret line="40" column="16" lean-forward="true" selection-start-line="40" selection-start-column="16" selection-end-line="40" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/抓取猫眼电影排名.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="576">
@@ -302,9 +315,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1632">
           <caret line="51" lean-forward="true" selection-start-line="51" selection-end-line="51" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -437,12 +447,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/coolie练习1.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/完整请求.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/请求头headers练习3.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-108">
@@ -452,20 +456,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/验证练习.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-288">
-          <folding>
-            <element signature="e#0#93#0" expanded="true" />
-          </folding>
-        </state>
+        <state relative-caret-position="-288" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/猫眼电影项目默写.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="604">
           <caret line="51" selection-start-line="51" selection-end-line="51" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -483,13 +480,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/抓取猫眼电影排名.py">
+    <entry file="file://$PROJECT_DIR$/PyQuery练习.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32">
-          <caret line="18" column="25" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="605">
+          <caret line="40" column="16" selection-start-line="40" selection-start-column="16" selection-end-line="40" selection-end-column="16" />
         </state>
       </provider>
     </entry>
@@ -497,16 +491,31 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret selection-end-line="20" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/抓取猫眼电影排名.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="9" column="13" lean-forward="true" selection-start-line="8" selection-start-column="7" selection-end-line="9" selection-end-column="13" />
           <folding>
-            <element signature="e#7#1242#0" />
+            <element signature="e#0#15#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PyQuery练习.py">
+    <entry file="file://$PROJECT_DIR$/explore.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="604">
-          <caret line="40" column="16" lean-forward="true" selection-start-line="40" selection-start-column="16" selection-end-line="40" selection-end-column="16" />
+        <state relative-caret-position="-4416" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/数据存储TXT.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
