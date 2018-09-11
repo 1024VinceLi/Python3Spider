@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f7912a82-18db-4928-b2e5-449a584c16f4" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/数据存储TXT.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/json数据存储.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,7 +14,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="数据存储TXT.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="数据存储TXT.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/数据存储TXT.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="544">
@@ -26,10 +26,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="explore.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/explore.txt">
+      <file leaf-file-name="json数据存储.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/json数据存储.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-4416" />
+            <state relative-caret-position="64">
+              <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="datas.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/datas.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="192">
+              <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+            </state>
           </provider>
         </entry>
       </file>
@@ -56,6 +67,7 @@
         <option value="$PROJECT_DIR$/SOUP函数练习.py" />
         <option value="$PROJECT_DIR$/PyQuery练习.py" />
         <option value="$PROJECT_DIR$/数据存储TXT.py" />
+        <option value="$PROJECT_DIR$/json数据存储.py" />
       </list>
     </option>
   </component>
@@ -103,25 +115,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.数据存储TXT">
-    <configuration name="验证练习" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="爬虫基础练习" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/验证练习.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
+  <component name="RunManager" selected="Python.json数据存储">
     <configuration name="PyQuery练习" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="爬虫基础练习" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -212,6 +206,24 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
+    <configuration name="json数据存储" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="爬虫基础练习" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/json数据存储.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <configuration name="path函数练习" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="爬虫基础练习" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -232,18 +244,18 @@
     </configuration>
     <list>
       <item itemvalue="Python.path函数练习" />
-      <item itemvalue="Python.验证练习" />
       <item itemvalue="Python.SOUP函数练习" />
       <item itemvalue="Python.PyQuery练习" />
       <item itemvalue="Python.数据存储TXT" />
+      <item itemvalue="Python.json数据存储" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.json数据存储" />
         <item itemvalue="Python.数据存储TXT" />
         <item itemvalue="Python.PyQuery练习" />
         <item itemvalue="Python.SOUP函数练习" />
         <item itemvalue="Python.path函数练习" />
-        <item itemvalue="Python.验证练习" />
       </list>
     </recent_temporary>
   </component>
@@ -261,14 +273,14 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="878" extended-state="7" />
+    <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15364583" />
       <window_info anchor="bottom" id="TODO" order="5" />
       <window_info anchor="bottom" id="Event Log" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32984293" />
-      <window_info anchor="right" id="Run" order="3" visible="true" weight="6.510417E-4" />
+      <window_info anchor="right" id="Run" order="3" visible="true" weight="0.3450521" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="8" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -504,11 +516,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/explore.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4416" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/数据存储TXT.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="544">
@@ -516,6 +523,28 @@
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/explore.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4416" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datas.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/json数据存储.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
         </state>
       </provider>
     </entry>
