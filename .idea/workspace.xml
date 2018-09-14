@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f7912a82-18db-4928-b2e5-449a584c16f4" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/第三次默写猫眼电影项目.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/爬取Ajax微博项目默写.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,23 +14,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="第三次默写猫眼电影项目.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/第三次默写猫眼电影项目.py">
+      <file leaf-file-name="爬去Ajax动态微博内容.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/爬去Ajax动态微博内容.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="41" column="8" selection-start-line="41" selection-start-column="8" selection-end-line="41" selection-end-column="8" />
+            <state relative-caret-position="-262">
+              <caret line="32" column="9" lean-forward="true" selection-start-line="32" selection-start-column="9" selection-end-line="32" selection-end-column="9" />
               <folding>
-                <element signature="e#0#15#0" expanded="true" />
+                <element signature="e#0#34#0" expanded="true" />
+                <element signature="e#437#825#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="猫眼电影项目默写.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/猫眼电影项目默写.py">
+      <file leaf-file-name="爬取Ajax微博项目默写.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/爬取Ajax微博项目默写.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="576">
-              <caret line="24" column="22" lean-forward="true" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="22" />
+            <state relative-caret-position="143">
+              <caret line="62" column="29" selection-start-line="62" selection-start-column="29" selection-end-line="62" selection-end-column="29" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -69,10 +70,11 @@
         <option value="$PROJECT_DIR$/Ajax微博项目源码拷贝.py" />
         <option value="$PROJECT_DIR$/爬去Ajax动态微博内容.py" />
         <option value="$PROJECT_DIR$/第三次默写猫眼电影项目.py" />
+        <option value="$PROJECT_DIR$/爬取Ajax微博项目默写.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="85" />
     <option name="y" value="25" />
     <option name="width" value="1750" />
@@ -116,7 +118,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.第三次默写猫眼电影项目">
+  <component name="RunManager" selected="Python.爬取Ajax微博项目默写">
     <configuration name="贪婪匹配" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="爬虫基础练习" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -166,6 +168,24 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/爬去Ajax动态微博内容.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="爬取Ajax微博项目默写" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="爬虫基础练习" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/爬取Ajax微博项目默写.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -265,9 +285,11 @@
       <item itemvalue="Python.贪婪匹配" />
       <item itemvalue="Python.爬去Ajax动态微博内容" />
       <item itemvalue="Python.第三次默写猫眼电影项目" />
+      <item itemvalue="Python.爬取Ajax微博项目默写" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.爬取Ajax微博项目默写" />
         <item itemvalue="Python.第三次默写猫眼电影项目" />
         <item itemvalue="Python.爬去Ajax动态微博内容" />
       </list>
@@ -295,7 +317,7 @@
       <window_info anchor="bottom" id="Event Log" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="8" />
-      <window_info active="true" anchor="bottom" id="Run" order="10" visible="true" weight="0.0" />
+      <window_info active="true" anchor="bottom" id="Run" order="10" visible="true" weight="0.37303665" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -650,12 +672,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/爬去Ajax动态微博内容.py">
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/site-packages/requests-2.18.4-py3.6.egg/requests/api.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1088">
-          <caret line="34" column="60" selection-start-line="34" selection-start-column="60" selection-end-line="34" selection-end-column="60" />
+        <state relative-caret-position="95">
+          <caret line="57" selection-start-line="57" selection-end-line="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/第三次默写猫眼电影项目.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4">
+          <caret line="41" column="8" selection-start-line="41" selection-start-column="8" selection-end-line="41" selection-end-column="8" />
           <folding>
-            <element signature="e#0#34#0" expanded="true" />
+            <element signature="e#0#15#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -670,17 +699,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/site-packages/requests-2.18.4-py3.6.egg/requests/api.py">
+    <entry file="file://$PROJECT_DIR$/爬去Ajax动态微博内容.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="57" selection-start-line="57" selection-end-line="57" />
+        <state relative-caret-position="-262">
+          <caret line="32" column="9" lean-forward="true" selection-start-line="32" selection-start-column="9" selection-end-line="32" selection-end-column="9" />
+          <folding>
+            <element signature="e#0#34#0" expanded="true" />
+            <element signature="e#437#825#0" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/第三次默写猫眼电影项目.py">
+    <entry file="file://$PROJECT_DIR$/爬取Ajax微博项目默写.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="41" column="8" selection-start-line="41" selection-start-column="8" selection-end-line="41" selection-end-column="8" />
+        <state relative-caret-position="143">
+          <caret line="62" column="29" selection-start-line="62" selection-start-column="29" selection-end-line="62" selection-end-column="29" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
